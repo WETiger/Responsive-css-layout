@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        .container {
+            border: 1px solid;
+            height: 400px;
+            display: flex;
+            /* justify-content: center;
+            align-items: stretch; */
+
+        }
+
+        .box {
+            width: 200px;
+            /* height: 300px; */
+            /* font-size: ; */
+            border: 2px dashed slateblue;
+        }
+
+        #r {
+            order: 1;
+        }
+
+        #r2 {
+            order: 2;
+            flex-grow: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>now we will see how to use flexbox</h1>
+    <div class="container">
+        <div id="r" class="box">BOX-1</div>
+        <div id="r2" class="box">
+            <h3>blog 2</h3>
+            <article class="blog-post">
+                <h4>blog post -1</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit adipisci corrupti cupiditate? Fuga ad consequatur officiis est. Veniam error temporibus sequi quas assumenda recusandae? Tenetur adipisci, harum ipsam possimus ratione voluptates voluptas quo vitae qui.</p>
+            </article>
+            <article class="blog-post">
+                <h4>blog post -2</h4>
+                <p>Nostrum, accusantium magni, sint similique animi quasi facere eveniet laudantium, sapiente obcaecati a repellat quam. Labore recusandae cumque cupiditate, sed rerum repellat voluptates amet quos atque iure esse distinctio sapiente numquam, perspiciatis nesciunt tempore aspernatur!</p>
+            </article>
+            <article class="blog-post">
+                <h4>blog post -3</h4>
+                <p>Dignissimos ad sapiente eos, laborum, autem ab numquam quibusdam molestias aliquam tenetur architecto hic cumque quaerat eum repudiandae harum quisquam non aspernatur? Quidem alias nam quae assumenda sit? Animi praesentium, ratione dolorem sed ipsum facilis.</p>
+            </article>
+            <article class="blog-post">
+                <h4>blog post -4</h4>
+                <p>Atque porro, nihil amet dicta nam beatae magnam perspiciatis ipsa quibusdam quae nesciunt distinctio expedita repellendus numquam. Iste est tenetur iusto quas, consequatur libero totam excepturi voluptatem quasi eligendi quaerat, cumque sit explicabo reiciendis ducimus.</p>
+            </article>
+            <article class="blog-post">
+                <h4>blog post -5</h4>
+                <p>Nam ullam soluta excepturi ipsum tempora asperiores, facere earum libero, reiciendis quibusdam hic id rem ut, in iure dolorem non at alias ea vel. Maxime molestiae repudiandae minus quae voluptatem. Amet distinctio eius minus officia.</p>
+            </article>
+
+        </div>
+    </div>
+</body>
+
+</html>
